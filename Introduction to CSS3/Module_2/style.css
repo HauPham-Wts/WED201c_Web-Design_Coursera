@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+    width: 50%;
+}
+.skip {
+    margin-bottom: 20px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #D3D3D3;
+}
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+h1 {
+    color: #06008B;
+}
+.description {
+    background-color: yellow;
+}
+.flowers {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 82.5px;
+}
+footer {
+    background-color: #D3D3D3;
+}
+img {
+    border: 1px solid black;
+}
