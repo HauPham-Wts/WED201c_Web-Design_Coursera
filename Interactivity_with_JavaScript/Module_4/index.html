@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body onload="addTabFocus()">
+    <div id="image">Hover over an image below to display here.</div>
+
+    <img
+      class="preview"
+      alt="Flower 1"
+      src="images/flower (1).png"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+
+    <img
+      class="preview"
+      alt="Flower 2"
+      src="images/flower (2).png"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+
+    <img
+      class="preview"
+      src="images/flower.png"
+      alt="Flower 3"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+
+    <img
+      class="preview"
+      src="images/koala.png"
+      alt="Animal 1"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+
+    <img
+      class="preview"
+      src="images/lion.png"
+      alt="Animal 2"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+
+    <img
+      class="preview"
+      src="images/turtle.png"
+      alt="Animal 3"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+  </body>
+</html>
